@@ -1,0 +1,17 @@
+
+<div id="team">
+  <div class="team-content">
+    <h1>This template was built with <i class="fas fa-heart"></i> by</h1>
+    <ul class="list-inline text-center">
+      <% ["burneyglobal", "brian-welch", "louistheroux", "makenahawley"].each do |gh_username| %>
+        <li>
+          <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username}", class: "img-circle" %>
+          <h3><%= gh_username.capitalize %></h3>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</div>
+  <a class='btn btn-primary' href='#'>Primary Button</a>
+  <a class='btn btn-warning' href='#'>warning Button</a>
+  <a class='btn btn-danger' href='#'>danger Button</a><a class='btn btn-info' href='#'>Info Button</a><a class='btn btn-success' href='#'>Success Button</a>
